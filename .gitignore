@@ -1,0 +1,70 @@
+<<<<<<< HEAD
+/target
+=======
+# Compiled byte code
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cargo artifacts
+/target/
+**/*.rs.bk
+
+# Rustup and rustc artifacts
+/rustdoc/
+**/*.rs.bk
+*.rlib
+*.rmeta
+*.rustc
+*.orig
+RustConfig
+**/Cargo.lock
+
+# IDEs
+/.idea/
+*.iml
+*.iws
+/out/
+/.vs/
+/.vscode/
+*.code-workspace
+
+# dotenv environment variables file
+.env
+
+# Ignore Bash history
+.history
+
+# Ignore node modules
+node_modules/
+
+# Ignore all markdown files
+*.md
+>>>>>>> 0dad9d8 (Initial commit)
